@@ -1,16 +1,87 @@
-# quotes_app
+<h1 align="center"> 🔸 Quote App 🔸 </h1>
 
-A new Flutter project.
+<h3 align="center"> 1. Splash Screen </h3>
 
-## Getting Started
+###
 
-This project is a starting point for a Flutter application.
+<h1 align="left"></h1>
 
-A few resources to get you started if this is your first Flutter project:
+###
+<div align="center">
+<img src = "https://github.com/MrSajidShaikh/quotes_app/assets/149478269/432323ce-ca1c-4d56-b678-b769f72c5415" width = 22% height = 35%>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+###
+<div align="center">
+<a href="https://github.com/MrSajidShaikh/quotes_app/blob/master/lib/screen/splash_screen.dart">-> 📂 Go To Dart File 📂 <-</a>
+</div>
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+###
+
+<h3 align="center"> 2. Category Screen </h3>
+
+###
+
+<h1 align="left"></h1>
+
+###
+<div align="center">
+<img src ="https://github.com/MrSajidShaikh/quotes_app/assets/149478269/8128af8f-9c1e-47c0-a37d-c1b078ec6f4f" width = 22% height = 35%>
+<img src ="https://github.com/MrSajidShaikh/quotes_app/assets/149478269/d980bfee-4174-46c2-8971-0cd5f4eb795d" width = 22% height = 35%>
+
+###
+<div align="center">
+<a href="https://github.com/MrSajidShaikh/quotes_app/blob/master/lib/screen/home_screen.dart">-> 📂 Go To Dart File 📂 <-</a>
+</div>
+
+###
+
+<h3 align="center"> 3. Quotes Screen </h3>
+
+###
+
+<h1 align="left"></h1>
+
+###
+<div align="center">
+<img src ="https://github.com/MrSajidShaikh/quotes_app/assets/149478269/c8d5da95-d7d8-4eb7-976b-ceea6d2501f3" width = 22% height = 35%>
+<img src ="https://github.com/MrSajidShaikh/quotes_app/assets/149478269/cab155e1-4a30-4959-9713-ec4e47d1e434" width = 22% height = 35%>
+
+###
+<div align="center">
+<a href="https://github.com/MrSajidShaikh/quotes_app/blob/master/lib/screen/add/add_category_screen.dart">-> 📂 Go To Dart File 📂 <-</a>
+</div>
+
+###
+
+<h3 align="center"> 4. Updation Screen </h3>
+
+###
+
+<h1 align="left"></h1>
+
+###
+<div align="center">
+<img src ="https://github.com/MrSajidShaikh/quotes_app/assets/149478269/e77b5ab9-7d0f-4757-bf8f-4e500fe31964" width = 22% height = 35%>
+<img src ="https://github.com/MrSajidShaikh/quotes_app/assets/149478269/07b9e5a2-4bfa-4fa9-8d5b-f030b3d89606" width = 22% height = 35%>
+
+###
+<div align="center">
+<a href="https://github.com/MrSajidShaikh/quotes_app/blob/master/lib/screen/add/add_quote_screen.dart">-> 📂 Go To Dart File 📂 <-</a>
+</div>
+
+###
+
+<h3 align="center"> 5. Adding Screen </h3>
+
+###
+
+<h1 align="left"></h1>
+
+###
+<div align="center">
+<img src ="https://github.com/MrSajidShaikh/quotes_app/assets/149478269/12bd0602-bc64-4b27-955b-88949f0ab266" width = 22% height = 35%>
+
+###
+<div align="center">
+<a href="https://github.com/MrSajidShaikh/quotes_app/blob/master/lib/screen/add/add_screen.dart">-> 📂 Go To Dart File 📂 <-</a>
+</div>
