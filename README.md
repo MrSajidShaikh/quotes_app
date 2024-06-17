@@ -85,3 +85,13 @@
 <div align="center">
 <a href="https://github.com/MrSajidShaikh/quotes_app/blob/master/lib/screen/add/add_screen.dart">-> 📂 Go To Dart File 📂 <-</a>
 </div>
+
+<h3 align="center"> Dialogue Box </h3>
+
+###
+
+<div align="center">
+<video src = "https://github.com/MrSajidShaikh/quotes_app/assets/149478269/e986d3b6-078b-4402-9eba-0a5e81d73c45">
+
+###
+
