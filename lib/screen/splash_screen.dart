@@ -33,7 +33,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
 
-    Future.delayed(Duration(seconds: 4),() => Get.offAllNamed("/home"),);
+    Future.delayed(const Duration(seconds: 4),() => Get.offAllNamed("/home"),);
 
     return SafeArea(
       child: Scaffold(
