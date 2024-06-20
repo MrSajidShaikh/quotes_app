@@ -15,7 +15,7 @@ void main() {
           "/": (p0) => const SplashScreen(),
           "/home": (p0) => const HomeScreen(),
           "/add": (p0) => const Add_Screen(),
-          "/viewCategory": (p0) => View_FilteredQuote_Screen(),
+          "/viewCategory": (p0) => const View_FilteredQuote_Screen(),
         },
       ),
     ),
