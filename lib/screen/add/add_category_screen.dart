@@ -94,7 +94,7 @@ class _Add_Category_ScreenState extends State<Add_Category_Screen> {
                       child: Row(children: [
                         SizedBox(width: 10,),
                         Text("${index + 1}",style: TextStyle(fontSize: 16.sp,fontWeight: FontWeight.w600,color: Colors.white),),
-                        SizedBox(width: 15,),
+                        const SizedBox(width: 15,),
                         Text("${control.categoryList[index]['category']}",style: TextStyle(fontSize: 16.sp,fontWeight: FontWeight.w600,color: Colors.white),),
                       ],),
 
