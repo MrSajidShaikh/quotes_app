@@ -126,7 +126,7 @@ Padding CustomTextField({controller,hint,kboard}) {
       controller: controller,
       decoration: InputDecoration(
           border: OutlineInputBorder(borderRadius: BorderRadius.circular(10)),
-          label: Text("Enter $hint",style: TextStyle(color: Color(0xff015B8A)),),
+          label: Text("Enter $hint",style: const TextStyle(color: Color(0xff015B8A)),),
           focusedBorder: OutlineInputBorder(borderSide: const BorderSide(color: Color(0xff015B8A),width: 1.5),borderRadius: BorderRadius.circular(10)),
           enabledBorder: OutlineInputBorder(borderSide: const BorderSide(color: Color(0x550A1172),width: 1),borderRadius: BorderRadius.circular(10)),
           enabled: true
