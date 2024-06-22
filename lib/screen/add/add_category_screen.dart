@@ -121,7 +121,7 @@ Padding CustomTextField({controller,hint,kboard}) {
   return Padding(
     padding:  EdgeInsets.all(10),
     child: TextField(
-      style: TextStyle(color: Color(0xff015B8A),fontSize: 16),
+      style: const TextStyle(color: Color(0xff015B8A),fontSize: 16),
       keyboardType: kboard,
       controller: controller,
       decoration: InputDecoration(
