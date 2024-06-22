@@ -119,7 +119,7 @@ class _Add_Category_ScreenState extends State<Add_Category_Screen> {
 
 Padding CustomTextField({controller,hint,kboard}) {
   return Padding(
-    padding:  EdgeInsets.all(10),
+    padding:  const EdgeInsets.all(10),
     child: TextField(
       style: const TextStyle(color: Color(0xff015B8A),fontSize: 16),
       keyboardType: kboard,
