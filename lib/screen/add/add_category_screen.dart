@@ -33,7 +33,7 @@ class _Add_Category_ScreenState extends State<Add_Category_Screen> {
             tcategory.clear();
           },
           child: Container(height: 60,width: 150,
-            decoration: BoxDecoration(borderRadius: BorderRadius.circular(30),color: Color(0xff015B8A),),
+            decoration: BoxDecoration(borderRadius: BorderRadius.circular(30),color: const Color(0xff015B8A),),
             alignment: Alignment.center,
             child: Text("Add Category",style: TextStyle(fontSize: 15.sp,color: Colors.white,fontWeight: FontWeight.w400),),
           ),
