@@ -65,7 +65,7 @@ class _Add_Category_ScreenState extends State<Add_Category_Screen> {
                                 control.loadCategoryDB();
                                 Get.back();
 
-                              }, icon: Icon(Icons.delete_outline_rounded),iconSize: 30.sp,color: Colors.red,),
+                              }, icon: const Icon(Icons.delete_outline_rounded),iconSize: 30.sp,color: Colors.red,),
 
 
                               IconButton(onPressed: () async {
