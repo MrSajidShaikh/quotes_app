@@ -47,7 +47,7 @@ class _Add_Category_ScreenState extends State<Add_Category_Screen> {
               itemBuilder: (context, index) {
 
                 return Padding(
-                  padding:  EdgeInsets.symmetric(horizontal: 5,vertical: 4),
+                  padding:  const EdgeInsets.symmetric(horizontal: 5,vertical: 4),
                   child: GestureDetector(
                     onTap: () {
                       tcategory.text = control.categoryList[index]['category'];
