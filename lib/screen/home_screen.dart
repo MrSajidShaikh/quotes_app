@@ -57,7 +57,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               borderRadius: BorderRadius.circular(8.w),
                               color: Colors.amber,
                               image: DecorationImage(
-                                  image: AssetImage("$e"),
+                                  image: AssetImage(e),
                                   fit: BoxFit.fill)),
                         ))
                             .toList(),
