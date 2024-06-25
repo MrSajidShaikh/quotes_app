@@ -82,7 +82,7 @@ class _Add_Category_ScreenState extends State<Add_Category_Screen> {
                                 tcategory.clear();
                                 Get.back();
 
-                              }, icon: Icon(Icons.check),iconSize: 30.sp,color: Colors.green,)
+                              }, icon: const Icon(Icons.check),iconSize: 30.sp,color: Colors.green,)
                             ],
                           )
                         ],
