@@ -90,7 +90,7 @@ class _Add_Category_ScreenState extends State<Add_Category_Screen> {
 
                     },
                     child: Container(height: 60,width: 100.w,
-                      decoration: BoxDecoration(borderRadius: BorderRadius.circular(3.w),color: Color(0x99015B8A),),
+                      decoration: BoxDecoration(borderRadius: BorderRadius.circular(3.w),color: const Color(0x99015B8A),),
                       child: Row(children: [
                         SizedBox(width: 10,),
                         Text("${index + 1}",style: TextStyle(fontSize: 16.sp,fontWeight: FontWeight.w600,color: Colors.white),),
