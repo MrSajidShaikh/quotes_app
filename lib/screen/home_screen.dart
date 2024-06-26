@@ -24,7 +24,7 @@ class _HomeScreenState extends State<HomeScreen> {
             onPressed: () {
               Get.toNamed("/add");
             },
-            child: Icon(Icons.add_outlined)),
+            child: const Icon(Icons.add_outlined)),
         appBar: AppBar(
           backgroundColor: Color(0xff015B8A),
           title: Text("Quotes"),
