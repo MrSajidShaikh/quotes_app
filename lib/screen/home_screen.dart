@@ -20,7 +20,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return SafeArea(
       child: Scaffold(
         floatingActionButton: FloatingActionButton(
-            backgroundColor: Color(0xff015B8A),
+            backgroundColor: const Color(0xff015B8A),
             onPressed: () {
               Get.toNamed("/add");
             },
