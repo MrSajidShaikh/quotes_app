@@ -27,7 +27,7 @@ class _HomeScreenState extends State<HomeScreen> {
             child: const Icon(Icons.add_outlined)),
         appBar: AppBar(
           backgroundColor: const Color(0xff015B8A),
-          title: Text("Quotes"),
+          title: const Text("Quotes"),
           centerTitle: true,
 
           // leading: IconButton(icon: Icon(Icons.menu_rounded), iconSize: 25,
