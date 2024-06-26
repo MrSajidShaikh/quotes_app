@@ -1,5 +1,4 @@
 import 'package:amazing_quotes/controller/quote_controller.dart';
-import 'package:amazing_quotes/utils/quote_db_helper.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
