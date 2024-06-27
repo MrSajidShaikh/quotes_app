@@ -194,15 +194,15 @@ class _HomeScreenState extends State<HomeScreen> {
       height: 9.h,
       width: 45.w,
       alignment: Alignment.center,
+      decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(4.w),
+          gradient: LinearGradient(colors: colorList),
+          color: Colors.redAccent),
       child: Text(
         "$subtitle",
         style: TextStyle(
             fontSize: 16.sp, fontWeight: FontWeight.w500, color: Colors.white),
       ),
-      decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(4.w),
-          gradient: LinearGradient(colors: colorList),
-          color: Colors.redAccent),
     );
   }
 }
