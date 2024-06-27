@@ -190,7 +190,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   Widget SubTitleBox({subtitle, colorList}) {
     return Container(
-      margin: EdgeInsets.symmetric(vertical: 2.5),
+      margin: const EdgeInsets.symmetric(vertical: 2.5),
       height: 9.h,
       width: 45.w,
       alignment: Alignment.center,
