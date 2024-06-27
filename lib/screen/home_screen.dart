@@ -183,7 +183,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget TitleTab(String title) => Padding(
     padding: const EdgeInsets.symmetric(vertical: 5),
     child: Text(
-      "$title",
+      title,
       style: TextStyle(fontWeight: FontWeight.w500, fontSize: 17.sp),
     ),
   );
