@@ -137,7 +137,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               () => GridView.builder(
                             itemCount: control.authorList.length,
                             scrollDirection: Axis.horizontal,
-                            padding: EdgeInsets.all(2.5),
+                            padding: const EdgeInsets.all(2.5),
                             gridDelegate:
                             SliverGridDelegateWithFixedCrossAxisCount(
                                 crossAxisCount: 3,
