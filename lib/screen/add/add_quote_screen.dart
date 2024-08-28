@@ -36,21 +36,21 @@ class _Add_Quote_ScreenState extends State<Add_Quote_Screen> {
               height: 8.h,
               width: 100.w,
               alignment: Alignment.center,
-              margin: EdgeInsets.all(10),
-              padding: EdgeInsets.only(left: 10),
+              margin: const EdgeInsets.all(10),
+              padding: const EdgeInsets.only(left: 10),
               decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(10),
-                  border: Border.all(color: Color(0xff015B8A))),
+                  border: Border.all(color: const Color(0xff015B8A))),
               child: DropdownButton(
                 borderRadius: BorderRadius.circular(10),
-                hint: Text(
+                hint: const Text(
                   "Select Category",
                   style: TextStyle(color: Color(0xff015B8A), fontSize: 16),
                 ),
 
                 // dropdownColor: Colors.amber,
                 isExpanded: true,
-                icon: Icon(Icons.expand_more_rounded),
+                icon: const Icon(Icons.expand_more_rounded),
                 underline: Container(),
 
                 value: control.selCategory.value.isEmpty
@@ -61,12 +61,12 @@ class _Add_Quote_ScreenState extends State<Add_Quote_Screen> {
                     .entries
                     .map((e) => DropdownMenuItem(
                     value: control.categoryList[e.key]['category'],
+                    alignment: Alignment.centerLeft,
                     child: Text(
                       "${control.categoryList[e.key]['category']}",
                       style:
-                      TextStyle(color: Color(0xff015B8A), fontSize: 16),
-                    ),
-                    alignment: Alignment.centerLeft))
+                      const TextStyle(color: Color(0xff015B8A), fontSize: 16),
+                    )))
                     .toList(),
                 onChanged: (value) {
                   control.selCategory.value = value as String;
@@ -97,7 +97,7 @@ class _Add_Quote_ScreenState extends State<Add_Quote_Screen> {
               width: 150,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(30),
-                color: Color(0xff015B8A),),
+                color: const Color(0xff015B8A),),
               alignment: Alignment.center,
               child: Text(
                 "Add Quote",
@@ -118,22 +118,22 @@ class _Add_Quote_ScreenState extends State<Add_Quote_Screen> {
 
   Padding CustomTextField({controller, hint, kboard}) {
     return Padding(
-      padding: EdgeInsets.all(10),
+      padding: const EdgeInsets.all(10),
       child: TextField(
-        style: TextStyle(color: Color(0xff0A1172), fontSize: 16),
+        style: const TextStyle(color: Color(0xff0A1172), fontSize: 16),
         keyboardType: kboard,
         controller: controller,
         decoration: InputDecoration(
             border: OutlineInputBorder(borderRadius: BorderRadius.circular(10)),
             label: Text(
               "Enter $hint",
-              style: TextStyle(color: Color(0xff015B8A)),
+              style: const TextStyle(color: Color(0xff015B8A)),
             ),
             focusedBorder: OutlineInputBorder(
-                borderSide: BorderSide(color: Color(0xff015B8A), width: 1.5),
+                borderSide: const BorderSide(color: Color(0xff015B8A), width: 1.5),
                 borderRadius: BorderRadius.circular(10)),
             enabledBorder: OutlineInputBorder(
-                borderSide: BorderSide(color: Color(0x55015B8A), width: 1),
+                borderSide: const BorderSide(color: Color(0x55015B8A), width: 1),
                 borderRadius: BorderRadius.circular(10)),
             enabled: true),
       ),
