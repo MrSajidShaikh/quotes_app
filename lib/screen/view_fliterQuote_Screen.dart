@@ -54,10 +54,10 @@ class _View_FilteredQuote_ScreenState extends State<View_FilteredQuote_Screen> {
       child: Scaffold(
 
           appBar: AppBar(
-              backgroundColor: Color(0xff015B8A),
+              backgroundColor: const Color(0xff015B8A),
               elevation: 0,
               centerTitle: true,
-              title: Text("$title",style: TextStyle(fontSize: 20.sp,fontWeight: FontWeight.w600),)
+              title: Text(title,style: TextStyle(fontSize: 20.sp,fontWeight: FontWeight.w600),)
           ),
 
           body: Obx(
