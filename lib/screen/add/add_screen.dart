@@ -35,8 +35,8 @@ class _Add_ScreenState extends State<Add_Screen> {
 
         child: Scaffold(
           appBar: AppBar(
-            backgroundColor: Color(0xff015B8A),
-            bottom: TabBar(
+            backgroundColor: const Color(0xff015B8A),
+            bottom: const TabBar(
               indicatorColor: Colors.white,
               tabs: [
                 Tab(child: Text("Category"),),
@@ -46,7 +46,7 @@ class _Add_ScreenState extends State<Add_Screen> {
           ),
 
 
-          body: TabBarView(
+          body: const TabBarView(
             children: [
               Add_Category_Screen(),
               Add_Quote_Screen()
