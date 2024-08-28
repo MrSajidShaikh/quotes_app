@@ -34,7 +34,7 @@ class _HomeScreenState extends State<HomeScreen> {
           //   onPressed: ()  {},),
         ),
         body: Padding(
-          padding: EdgeInsets.all(5),
+          padding: const EdgeInsets.all(5),
           child: SingleChildScrollView(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -42,7 +42,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 Stack(
                   children: [
                     Padding(
-                      padding: EdgeInsets.symmetric(vertical: 8),
+                      padding: const EdgeInsets.symmetric(vertical: 8),
                       child: CarouselSlider(
                         items: control.imgList
                             .map((e) => Container(
@@ -86,7 +86,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               () => GridView.builder(
                             itemCount: control.categoryList.length,
                             scrollDirection: Axis.horizontal,
-                            padding: EdgeInsets.all(2.5),
+                            padding: const EdgeInsets.all(2.5),
                             gridDelegate:
                             SliverGridDelegateWithFixedCrossAxisCount(
                                 crossAxisCount: 2,
