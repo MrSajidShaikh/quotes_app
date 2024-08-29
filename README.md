@@ -1,3 +1,31 @@
+# Quotes App
+
+This is a Quotes app that allows users to browse and explore different categories of quotes. Users can view quotes in a list format, tap on a quote to view it in full screen, and perform actions such as copying, downloading, and sharing quotes. The app utilizes the Provider package for state management and connects to a Node.js backend API for retrieving the quotes.
+
+## Demo Video
+
+Click [here](https://youtube.com/shorts/JBlfTLVciRE?feature=share4) to watch the demo video of the Quotes app.
+
+
+## Features
+
+- View a list of quotes on the home screen
+- Browse quotes by different categories
+- Tap on a quote to view it in full screen
+- Copy quotes to the clipboard
+- Download quotes to the device
+- Share quotes with others
+- Add new quotes using the "Ideas" feature
+
+## Technologies Used
+
+- Flutter: A cross-platform framework for building mobile apps
+- Provider: A state management package for Flutter
+- Node.js: A JavaScript runtime for server-side development
+
+
+## Screenshots
+
 <h1 align="center"> 🔸 Quote App 🔸 </h1>
 
 <h3 align="center"> 1. Splash Screen </h3>
