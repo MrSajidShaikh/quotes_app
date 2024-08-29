@@ -10,7 +10,7 @@ This is a Quotes app that allows users to browse and explore different categorie
 - Copy quotes to the clipboard
 - Download quotes to the device
 - Share quotes with others
-- Add new quotes using the "Ideas" feature
+- Add new quotes using the "Add" feature
 
 ## Technologies Used
 
@@ -118,6 +118,3 @@ This is a Quotes app that allows users to browse and explore different categorie
 
 <div align="center">
 <video src = "https://github.com/MrSajidShaikh/quotes_app/assets/149478269/e986d3b6-078b-4402-9eba-0a5e81d73c45">
-
-###
-
