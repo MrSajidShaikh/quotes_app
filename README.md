@@ -24,7 +24,7 @@ This is a Quotes app that allows users to browse and explore different categorie
 
 ## Screenshots
 
-<h1 align="center"> 🔸 Quote App 🔸 </h1>
+<h1 align="center"> 🔸 Quotes App 🔸 </h1>
 
 <h3 align="center"> 1. Splash Screen </h3>
 
