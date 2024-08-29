@@ -109,7 +109,7 @@ This is a Quotes app that allows users to browse and explore different categorie
 <a href="https://github.com/MrSajidShaikh/quotes_app/blob/master/lib/screen/add/add_screen.dart">-> 📂 Go To Dart File 📂 <-</a>
 </div>
 
-<h3 align="center"> Dialogue Box </h3>
+<h3 align="center">  Quote App </h3>
 
 ###
 
