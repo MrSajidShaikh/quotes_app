@@ -16,7 +16,7 @@ This is a Quotes app that allows users to browse and explore different categorie
 
 - Flutter: A cross-platform framework for building mobile apps
 - Provider: A state management package for Flutter
-- 
+- Get - Open screens/snackbars/dialogs without context
 
 
 ## Screenshots
