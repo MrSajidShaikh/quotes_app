@@ -17,6 +17,9 @@ This is a Quotes app that allows users to browse and explore different categorie
 - Flutter: A cross-platform framework for building mobile apps
 - Provider: A state management package for Flutter
 - Get - Open screens/snackbars/dialogs without context
+- Sizer - Responsive UI solution for Mobile App,Web and Desktop
+- Carousel Slider - support infinite scroll and custom child widget
+- sqflite - a self-contained, high-reliability, embedded, SQL database engine
 
 
 ## Screenshots
