@@ -1,6 +1,4 @@
-
 import 'dart:io';
-
 import 'package:amazing_quotes/model/quote_model.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:path/path.dart';
@@ -171,11 +169,4 @@ class Quote_DB_Helper
     database = await checkDB();
     database!.delete(dbQuoteTable,where: "id=?" ,whereArgs:[id] );
   }
-
-
-
-
-
-
-
 }

@@ -145,7 +145,7 @@ class _View_FilteredQuote_ScreenState extends State<View_FilteredQuote_Screen> {
                         borderRadius: BorderRadius.circular(5.w),
                         image: DecorationImage(
                             image: AssetImage(
-                                "${control.bgImgList[control.imgIndex.value]}"),
+                                control.bgImgList[control.imgIndex.value]),
                             fit: BoxFit.cover),
                         border: Border.all(color: Colors.black12)),
                     child: Column(

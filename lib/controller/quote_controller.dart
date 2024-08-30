@@ -1,7 +1,6 @@
 import 'package:amazing_quotes/utils/quote_db_helper.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-
 import '../model/quote_model.dart';
 
 class QuoteController extends GetxController {
@@ -65,6 +64,10 @@ class QuoteController extends GetxController {
     "assets/bg/bg (6).jpg",
     "assets/bg/bg (7).jpg",
     "assets/bg/bg (8).jpg",
+    "assets/bg/bg (9).jpg",
+    "assets/bg/bg (10).jpg",
+    "assets/bg/bg (11).jpg",
+    "assets/bg/bg (12).jpg",
   ];
   RxInt imgIndex = 3.obs;
 

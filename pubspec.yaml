@@ -39,10 +39,10 @@ dependencies:
   get: ^4.6.5
   sizer: ^2.0.15
   sqflite: ^2.2.8+4
-  path_provider: ^2.0.15
-  google_fonts: ^5.1.0
-  carousel_slider: ^4.2.1
-  device_preview: ^1.1.0
+  path_provider: ^2.1.4
+  google_fonts: ^6.2.1
+  carousel_slider: ^5.0.0
+  device_preview: ^1.2.0
 
 dev_dependencies:
   flutter_test:
