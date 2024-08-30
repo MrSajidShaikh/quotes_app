@@ -1,12 +1,11 @@
-
-import 'package:amazing_quotes/model/quote_model.dart';
-import 'package:amazing_quotes/utils/quote_db_helper.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 import 'package:sizer/sizer.dart';
 
 import '../../controller/quote_controller.dart';
+import '../../model/quote_model.dart';
+import '../../utils/quote_db_helper.dart';
 
 class Add_Quote_Screen extends StatefulWidget {
   const Add_Quote_Screen({super.key});

@@ -1,8 +1,8 @@
-import 'package:amazing_quotes/controller/quote_controller.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:sizer/sizer.dart';
+import '../controller/quote_controller.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});

@@ -1,9 +1,9 @@
 import 'dart:io';
-import 'package:amazing_quotes/model/quote_model.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:path/path.dart';
 import 'package:sqflite/sqflite.dart';
 import 'package:sqflite/sqlite_api.dart';
+import '../model/quote_model.dart';
 
 class Quote_DB_Helper
 {

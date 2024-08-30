@@ -1,6 +1,6 @@
-import 'package:amazing_quotes/screen/view_fliterQuote_Screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:quotes_app/screen/view_fliterQuote_Screen.dart';
 import 'package:sizer/sizer.dart';
 import 'screen/add/add_Screen.dart';
 import 'screen/home_Screen.dart';

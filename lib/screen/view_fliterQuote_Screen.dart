@@ -1,10 +1,10 @@
 import 'dart:math';
-import 'package:amazing_quotes/controller/quote_controller.dart';
-import 'package:amazing_quotes/model/quote_model.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:sizer/sizer.dart';
 
+import '../controller/quote_controller.dart';
+import '../model/quote_model.dart';
 import '../utils/quote_db_helper.dart';
 import 'add/add_Category_screen.dart';
 

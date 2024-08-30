@@ -1,12 +1,8 @@
-import 'package:amazing_quotes/controller/quote_controller.dart';
-import 'package:amazing_quotes/screen/add/add_Category_screen.dart';
-import 'package:amazing_quotes/screen/add/add_Quote_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-
-import 'package:sizer/sizer.dart';
-
-import '../../utils/quote_db_helper.dart';
+import '../../controller/quote_controller.dart';
+import 'add_Category_screen.dart';
+import 'add_quote_screen.dart';
 
 class Add_Screen extends StatefulWidget {
   const Add_Screen({super.key});

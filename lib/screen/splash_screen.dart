@@ -1,7 +1,7 @@
-import 'package:amazing_quotes/controller/quote_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:sizer/sizer.dart';
+import '../controller/quote_controller.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});

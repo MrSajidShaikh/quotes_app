@@ -1,7 +1,7 @@
-import 'package:amazing_quotes/utils/quote_db_helper.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../model/quote_model.dart';
+import '../utils/quote_db_helper.dart';
 
 class QuoteController extends GetxController {
   RxList categoryList = [].obs;
