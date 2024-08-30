@@ -1,8 +1,6 @@
-class QuoteModel
-{
-
+class QuoteModel {
   int? id;
-  String? category,author,quote,fav;
-  QuoteModel({this.id,this.category,this.author, this.quote,this.fav});
+  String? category, author, quote, fav;
 
+  QuoteModel({this.id, this.category, this.author, this.quote, this.fav});
 }
