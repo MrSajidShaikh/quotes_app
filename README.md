@@ -111,7 +111,6 @@ This is a Quotes app that allows users to browse and explore different categorie
 <div align="center">
 <a href="https://github.com/MrSajidShaikh/quotes_app/blob/master/lib/screen/add/add_screen.dart">-> 📂 Go To Dart File 📂 <-</a>
 </div>
-
 <h3 align="center">  Quote App </h3>
 
 ###
