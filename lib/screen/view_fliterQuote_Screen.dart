@@ -210,9 +210,11 @@ class _View_FilteredQuote_ScreenState extends State<View_FilteredQuote_Screen> {
                               },
                             ),
                             IconButton(
-                              icon: const Icon(Icons.favorite_outline_rounded,
+                              icon: const Icon(Icons.save_outlined,
                                   color: Colors.white),
-                              onPressed: () {},
+                              onPressed: () {
+                                Get.toNamed("/savedScreen");
+                              },
                             ),
                           ],
                         ),

@@ -160,13 +160,31 @@ class Quote_DB_Helper
     return list;
 
   }
-  //SELECT DISTINCT Country FROM Customers;
 
 
   Future<void> deleteQuotes(int id)
   async {
-    print("============== pressed delete--------------- ${id}");
+    print("============== pressed delete--------------- $id");
     database = await checkDB();
     database!.delete(dbQuoteTable,where: "id=?" ,whereArgs:[id] );
   }
+}
+
+Future<Map<String, List<String>>> getSavedQuotesByCategory() async {
+  final db = await openDatabase('quotes.db');
+  final List<Map<String, dynamic>> maps = await db.query('saved_quotes');
+
+  Map<String, List<String>> categorizedQuotes = {};
+
+  for (var map in maps) {
+    String category = map['category'];
+    String quote = map['quote'];
+
+    if (!categorizedQuotes.containsKey(category)) {
+      categorizedQuotes[category] = [];
+    }
+    categorizedQuotes[category]!.add(quote);
+  }
+
+  return categorizedQuotes;
 }

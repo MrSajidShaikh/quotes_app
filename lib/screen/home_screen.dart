@@ -30,8 +30,10 @@ class _HomeScreenState extends State<HomeScreen> {
           title: const Text("Quotes"),
           centerTitle: true,
 
-          // leading: IconButton(icon: Icon(Icons.menu_rounded), iconSize: 25,
-          //   onPressed: ()  {},),
+          leading: IconButton(icon: const Icon(Icons.menu_rounded), iconSize: 25,
+            onPressed: ()  {
+            Get.toNamed("/savedScreen");
+            },),
         ),
         body: Padding(
           padding: const EdgeInsets.all(5),
